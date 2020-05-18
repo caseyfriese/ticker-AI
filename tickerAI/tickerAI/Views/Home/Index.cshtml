@@ -7,8 +7,7 @@
     table {
         font-family: 'Times New Roman', Times, serif;
         border-collapse: collapse;
-        width: 100%;
-        border-spacing: 10px;
+        width: 1000px;
 
     }
 
@@ -20,8 +19,16 @@
     tr:nth-child(odd) {
         background-color: #8e949e
     }
+    div.scrollable{
+        position: relative;
+        overflow: auto;
+        height: 150px;
+        left: 100px;
+
+    }
 </style>
 </head>
+<div class="scrollable">
     <table>
         <tr>
             <td>
@@ -92,6 +99,5 @@
             <td>
                 ~
             </td>
-        </tr>
     </table>
-
+</div>

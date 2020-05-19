@@ -3,55 +3,63 @@
 }
 
 <meta name="viewport"content="width=device-width,initial-scale=1">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5/css/font-awesome.min.css">
-<style>
-
-    body {
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    }
-
-    .sidenav {
-        height: 100%;
-        width: 225px;
-        position: fixed;
-        z-index: 1;
-        top: 0;
-        left: 0;
-        background-color: #5b4699;
-        overflow-x: hidden;
-        padding-top: 20px;
-    }
+<head>
+ <script src="https://kit.fontawesome.com/c677c9e18f.js" crossorigin="anonymous"></script>
+    <style>
 
 
-    .sidenav a {
-        padding: 16px 8px 16px 52px;
-        text-decoration: none;
-        font-size: 25px;
-        color: #818181;
-        display: block;
-    }
-    .sidenav a:hover{
-        color: #f1f1f1;
-    }
-    .main {
-        margin-left: 160px;
-        padding: 0px 10px;
-    }
+        body {
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
 
-</style>
+        .sidenav fas {
+            display: block;
+        }
+
+        .sidenav {
+            height: 100%;
+            width: 225px;
+            position: fixed;
+            z-index: 1;
+            top: 0;
+            left: 0;
+            background-color: #5b4699;
+            overflow-x: hidden;
+            padding-top: 85px;
+        }
+
+        .sidenav a {
+            margin-left: 90px;
+            padding: 8px 8px 8px 8px;
+            text-decoration: none;
+            font-size: 25px;
+            color: #818181;
+            display: block;
+        }
+
+        .sidenav a:hover {
+            color: #f1f1f1;
+        }
+
+        .main {
+            margin-left: 160px;
+            padding: 0px 10px;
+        }
+    </style>
+</head>
 <!-- body sets the fonts within a body
     .sidenav sets the sidebar properties
     .sidenav a sets the sidebars display properties
-    .sidenac a:hover creates a hover display when something is being hovered over
+    .sidenav a:hover creates a hover display when something is being hovered over
     .main sets the main containers position and properties -->
 
 <body>
-<div class="sidenav">
-    <a href="#home">Home</a>
-    <a href="#profile">Profile</a>
-    <a href="#trends"><i class="fas fa-chart-line"></i>Trends</a>
-    <a href="#settings">Settings</a>
-</div>
+    <div class="sidenav">
+        <a href="#home"><i class="fas fa-home"></i></a>
+        <a href="#profile"><i class="fas fa-user"></i></a>
+        <a href="#trends"><i class="fas fa-chart-line"></i></a>
+        <a href="#settings"><i class="fas fa-cogs"></i></a>
+    </div>
 
 <div class="main">
     ...

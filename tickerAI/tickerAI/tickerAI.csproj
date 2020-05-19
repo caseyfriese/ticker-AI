@@ -11,5 +11,6 @@
   <ItemGroup>
     <PackageReference Include="bootstrap" Version="4.5.0" />
     <PackageReference Include="ServiceStack.Text" Version="5.8.0" />
+    <PackageReference Include="font-awesome" Version="4.7.0" />
   </ItemGroup>
 </Project>

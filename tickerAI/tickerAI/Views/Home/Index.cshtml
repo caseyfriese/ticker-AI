@@ -2,106 +2,48 @@
     ViewData["Title"] = "Home Page";
 }
 
+<meta name="viewport"content="width=device-width,initial-scale=1">
 <head>
 <style>
-    table.center {
-        margin-left: auto;
-        margin-right: auto;
-    }
-    table {
+    body{
         font-family: 'Times New Roman', Times, serif;
-        border-collapse: collapse;
-        width: 1000px;
-
+    }
+    .sidenav {
+        height: 100%;
+        width: 225px;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: #5b4699;
+        overflow-x: hidden;
+        padding-top: 20px;
+    }
+    .sidenav a {
+        padding: 6px 8px 6px 16px;
+        text-decoration: none;
+        font-size: 25px;
+        color: #818181;
+        display: block;
+    }
+    .sidenav a:hover{
+        color: #f1f1f1;
+    }
+    .main {
+        margin-left: 160px;
+        padding: 0px 10px;
     }
 
-    td, th {
-        border: 0px;
-        text-align: center;
-        padding: 7px;
-    }
-    tr:nth-child(odd) {
-        background-color: #8e949e
-    }
-    div.scrollable{
-        position: relative;
-        overflow: auto;
-        height: 150px;
-        bottom: -300px
-       
-    }
 </style>
 </head>
-<div class="scrollable">
-    <table class="center">
-        <tr>
-            <td>
-                DJI
-            </td>
-            <td>
-                +
-            </td>
-            <td>
-                $23,456
-            </td>
-            <td>
-                (graph)
-            </td>
-        </tr>
-        <tr>
-            <td>
-                SRNE
-            </td>
-            <td>
-                -
-            </td>
-            <td>
-                $3.14
-            </td>
-            <td>
-                (graph)
-            </td>
-        </tr>
-        <tr>
-            <td>
-                AAPL
-            </td>
-            <td>
-                -
-            </td>
-            <td>
-                $315.11
-            </td>
-            <td>
-                (graph)
-            </td>
-        </tr>
-        <tr>
-            <td>
-                DIS
-            </td>
-            <td>
-                +
-            </td>
-            <td>
-                $116.62
-            </td>
-            <td>
-                (graph)
-            </td>
-        </tr>
-        <tr>
-            <td>
-                ~
-            </td>
-            <td>
-                ~
-            </td>
-            <td>
-                ~
-            </td>
-            <td>
-                ~
-            </td>
-    </table>
+
+<body>
+<div class="sidenav">
+    <a href="#">Profile</a>
+    <a href="#">Settings</a>
 </div>
+
+<div class="main">
+    ...
+</div>
+</body>

@@ -3,11 +3,13 @@
 }
 
 <meta name="viewport"content="width=device-width,initial-scale=1">
-<head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5/css/font-awesome.min.css">
 <style>
-    body{
-        font-family: 'Times New Roman', Times, serif;
+
+    body {
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     }
+
     .sidenav {
         height: 100%;
         width: 225px;
@@ -19,8 +21,10 @@
         overflow-x: hidden;
         padding-top: 20px;
     }
+
+
     .sidenav a {
-        padding: 6px 8px 6px 16px;
+        padding: 16px 8px 16px 52px;
         text-decoration: none;
         font-size: 25px;
         color: #818181;
@@ -35,12 +39,18 @@
     }
 
 </style>
-</head>
+<!-- body sets the fonts within a body
+    .sidenav sets the sidebar properties
+    .sidenav a sets the sidebars display properties
+    .sidenac a:hover creates a hover display when something is being hovered over
+    .main sets the main containers position and properties -->
 
 <body>
 <div class="sidenav">
-    <a href="#">Profile</a>
-    <a href="#">Settings</a>
+    <a href="#home">Home</a>
+    <a href="#profile">Profile</a>
+    <a href="#trends"><i class="fas fa-chart-line"></i>Trends</a>
+    <a href="#settings">Settings</a>
 </div>
 
 <div class="main">

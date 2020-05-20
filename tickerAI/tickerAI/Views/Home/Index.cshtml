@@ -2,66 +2,74 @@
     ViewData["Title"] = "Home Page";
 }
 
-<meta name="viewport"content="width=device-width,initial-scale=1">
+<html>
 <head>
- <script src="https://kit.fontawesome.com/c677c9e18f.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="Hover.css">
+    <script src = "https://kit.fontawesome.com/c677c9e18f.js" crossorigin = "anonymous"></script>
     <style>
 
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
 
         body {
-            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            text-align: center;
         }
 
-        .sidenav fas {
-            display: block;
-        }
-
-        .sidenav {
+        .sidebar {
             height: 100%;
             width: 225px;
+            background-color: #36368f;
             position: fixed;
-            z-index: 1;
-            top: 0;
-            left: 0;
-            background-color: #5b4699;
-            overflow-x: hidden;
-            padding-top: 85px;
         }
 
-        .sidenav a {
-            margin-left: 90px;
-            padding: 8px 8px 8px 8px;
-            text-decoration: none;
+        .sidebar .sideHeader h2 {
+            padding-top: 20px;
+            color: #fff;
             font-size: 25px;
-            color: #818181;
-            display: block;
+            text-align: center;
         }
 
-        .sidenav a:hover {
-            color: #f1f1f1;
+        .homeButton a {
+            background-color: #fff;
+            color: #80808a;
+            font-size: 20px;
+            display: inline-block;
+            text-decoration: none;
+            margin-top: 20px;
+            padding: 10px;
+            border-radius: 100px;
         }
 
-        .main {
-            margin-left: 160px;
-            padding: 0px 10px;
+
+        .homeButton .hvr-grow {
+            display: inline-block;
+            vertical-align: middle;
+            -webkit-transform: perspective(1px) translateZ(0);
+            transform: perspective(1px) translateZ(0);
+            box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+            -webkit-transition-duration: 0.3s;
+            transition-duration: 0.3s;
+            -webkit-transition-property: transform;
+            transition-property: transform;
+        }
+        .homeButton .hvr-grow:hover {
+            transform: scale(1.1);
         }
     </style>
 </head>
-<!-- body sets the fonts within a body
-    .sidenav sets the sidebar properties
-    .sidenav a sets the sidebars display properties
-    .sidenav a:hover creates a hover display when something is being hovered over
-    .main sets the main containers position and properties -->
+
 
 <body>
-    <div class="sidenav">
-        <a href="#home"><i class="fas fa-home"></i></a>
-        <a href="#profile"><i class="fas fa-user"></i></a>
-        <a href="#trends"><i class="fas fa-chart-line"></i></a>
-        <a href="#settings"><i class="fas fa-cogs"></i></a>
+    <div id="sidebarOut" class="sidebar">
+        <div id="sidebarHeader" class="sideHeader">
+            <h2>tickerAI</h2>
+        </div>
+        <div id="home" class="homeButton">
+            <a href="#home" class="hvr-grow"><i class="fas fa-home"></i> Home</a>
+        </div>
     </div>
-
-<div class="main">
-    ...
-</div>
 </body>
+</html>

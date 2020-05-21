@@ -2,63 +2,12 @@
     ViewData["Title"] = "Home Page";
 }
 
+
+<!DOCTYPE html>
 <html>
 <head>
-    <link rel="stylesheet" href="Hover.css">
     <script src = "https://kit.fontawesome.com/c677c9e18f.js" crossorigin = "anonymous"></script>
-    <style>
-
-        * {
-            margin: 0px;
-            padding: 0px;
-        }
-
-        body {
-            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-            text-align: center;
-        }
-
-        .sidebar {
-            height: 100%;
-            width: 225px;
-            background-color: #36368f;
-            position: fixed;
-        }
-
-        .sidebar .sideHeader h2 {
-            padding-top: 20px;
-            color: #fff;
-            font-size: 25px;
-            text-align: center;
-        }
-
-        .homeButton a {
-            background-color: #fff;
-            color: #80808a;
-            font-size: 20px;
-            display: inline-block;
-            text-decoration: none;
-            margin-top: 20px;
-            padding: 10px;
-            border-radius: 100px;
-        }
-
-
-        .homeButton .hvr-grow {
-            display: inline-block;
-            vertical-align: middle;
-            -webkit-transform: perspective(1px) translateZ(0);
-            transform: perspective(1px) translateZ(0);
-            box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-            -webkit-transition-duration: 0.3s;
-            transition-duration: 0.3s;
-            -webkit-transition-property: transform;
-            transition-property: transform;
-        }
-        .homeButton .hvr-grow:hover {
-            transform: scale(1.1);
-        }
-    </style>
+    <link rel="stylesheet" type="text/css" href="css/dash.css">
 </head>
 
 
@@ -69,6 +18,12 @@
         </div>
         <div id="home" class="homeButton">
             <a href="#home" class="hvr-grow"><i class="fas fa-home"></i> Home</a>
+        </div>
+        <div id="profile" class="profileButton">
+            <a href="#profile" class="hvr-grow"><i class="fas fa-user"></i> Profile</a>
+        </div>
+        <div id="settings" class="settingsButton">
+            <a href="#settings" class="hvr-grow"><i class="fas fa-cogs"></i> Settings</a>
         </div>
     </div>
 </body>

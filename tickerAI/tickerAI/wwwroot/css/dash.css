@@ -1,31 +1,33 @@
 ﻿@charset "UTF-8";
 
+/* Sets the starting point of all objects*/
 * {
     margin: 0px;
     padding: 0px;
 }
 
+/* Sets the font of the body element */
 body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center;
 }
 
 .sidebar {
     height: 100%;
     width: 225px;
-    background-color: #36368f;
+    background-color: #262928;
     position: fixed;
+    text-align: center;
 }
-
-.sidebar .sideHeader h2 {
+/* Sets the properties of the header within these classes */
+    .sideHeader h2 {
         padding-top: 20px;
         color: #fff;
         font-size: 25px;
         text-align: center;
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
-}    
-
+    }
+/* Sets the home button properties */
 .homeButton a {
     background-color: #fff;
     color: #80808a;
@@ -40,7 +42,7 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
-
+/* Allows the home button to grow when hovered */
 .homeButton .hvr-grow {
     display: inline-block;
     vertical-align: middle;
@@ -57,7 +59,7 @@ body {
         transform: scale(1.1);
         opacity: 1;
 }
-
+/* Sets the profile button properties */
 .profileButton a {
     background-color: #fff;
     color: #80808a;
@@ -71,7 +73,7 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
-
+/* Allows the profile button to grow when hovered */
 .profileButton .hvr-grow {
     display: inline-block;
     vertical-align: middle;
@@ -89,7 +91,7 @@ body {
     transform: scale(1.1);
     opacity: 1;
 }
-
+/* Sets the setting buttons properties */
 .settingsButton a {
     background-color: #fff;
     color: #80808a;
@@ -103,7 +105,7 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
-
+/* Allows the setting button to grow when hovered */
 .settingsButton .hvr-grow {
     display: inline-block;
     vertical-align: middle;
@@ -120,3 +122,24 @@ body {
     transform: scale(1.1);
     opacity: 1;
 }
+
+/* Current date  properties*/
+.currentDate h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #828994;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-font-smoothing: antialiased;
+
+}
+
+.dateIcon {
+    color: #828994;
+    margin-top: 300px;
+    padding: 5px;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+}
+

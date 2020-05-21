@@ -17,13 +17,16 @@ body {
     background-color: #262928;
     position: fixed;
     text-align: center;
+    overflow: auto;
 }
 /* Sets the properties of the header within these classes */
     .sideHeader h2 {
-        padding-top: 20px;
+        margin-top: 300px;
+        display: inline-block;
+        margin-left: auto;
+        margin-right: auto;
         color: #fff;
         font-size: 25px;
-        text-align: center;
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
     }
@@ -126,18 +129,16 @@ body {
 /* Current date  properties*/
 .currentDate h2 {
     font-family: Arial, Helvetica, sans-serif;
-    color: #828994;
+    color: #fff;
     display: inline-block;
     margin-left: auto;
     margin-right: auto;
     -webkit-font-smoothing: antialiased;
-
 }
 
 .dateIcon {
-    color: #828994;
-    margin-top: 300px;
-    padding: 5px;
+    color: #fff;
+    padding-top: 25px;
     display: inline-block;
     margin-left: auto;
     margin-right: auto;

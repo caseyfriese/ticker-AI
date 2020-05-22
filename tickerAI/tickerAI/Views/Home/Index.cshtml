@@ -7,30 +7,20 @@
 <html>
 <head>
     <script src = "https://kit.fontawesome.com/c677c9e18f.js" crossorigin = "anonymous"></script>
-    <link rel="stylesheet" type="text/css" href="css/dash.css">
+    <link rel="stylesheet" type="text/css" href="css/dashboard.css">
 </head>
 
-
+<!-- Creates the sidebar container -->
 <body>
-    <div id="sidebarOut" class="sidebar">
-        <div id="dateIcon" class="dateIcon">
-            <h2><i class="fas fa-calendar-alt"></i></h2>
-        </div>
-        <div id="date" class="currentDate">
-            <h2>May 21</h2>
-        </div>
-        <div id="home" class="homeButton">
-            <a href="#home" class="hvr-grow"><i class="fas fa-home"></i> Home</a>
-        </div>
-        <div id="profile" class="profileButton">
-            <a href="#profile" class="hvr-grow"><i class="fas fa-user"></i> Profile</a>
-        </div>
-        <div id="settings" class="settingsButton">
-            <a href="#settings" class="hvr-grow"><i class="fas fa-cogs"></i> Settings</a>
-        </div>
-        <div id="sidebarHeader" class="sideHeader">
-            <h2>TickerAI</h2>
-        </div>
+    <!-- Add things to sidebar in here -->
+    <div id="mySidebar" class="sidebar">
+        <a id="calendar"><i class="fas fa-calendar-alt"></i></a>
+        <a id="date">May 22</a>
+        <a href="#home" class="hvr-grow" id="homeIcon"><i class="fas fa-home"></i></a>
+        <a href="#profile" class="hvr-grow" id="profileIcon"><i class="fas fa-user"></i></a>
+        <a href="#profile" class="hvr-grow" id="settingsIcon"><i class="fas fa-cogs"></i></a>
+        <a href="#sidebarMax" class="hvr-grow" id="maximizeArrow"><i class="fas fa-arrow-right"></i></a>
+        <a id="logo"><i class="fas fa-eye"></i></a>
     </div>
 </body>
 </html>

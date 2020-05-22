@@ -1,0 +1,79 @@
+﻿/* Sets the starting point of all objects*/
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Sets the font of the body element */
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.sidebar {
+    height: 100%;
+    width: 60px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #2a2b33;
+    overflow: auto;
+    text-align: center;
+}
+
+.sidebar #calendar {
+    display: inline-block;
+    font-size: 25px;
+    color: #fff;
+    padding-top: 15px;
+    -webkit-font-smoothing: antialiased;
+}
+
+.sidebar #date {
+    display: inline-block;
+    font-size: 20px;
+    padding-top: 7px;
+    color: #fff;
+    -webkit-font-smoothing: antialiased;
+}
+
+.sidebar #homeIcon {
+    display: inline-block;
+    font-size: 30px;
+    color: #fff;
+    margin-top: 100px;
+    opacity: 0.5
+}
+
+
+.sidebar .hvr-grow {
+        display: inline-block;
+        vertical-align: middle;
+        transform: translateZ(0);
+        box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+        backface-visibility: hidden;
+        -moz-osx-font-smoothing: grayscale;
+        transition-duration: 0.3s;
+        transition-property: transform;
+        font-size: 30px;
+        color: #fff;
+        margin-top: 50px;
+        opacity: 0.5;
+}
+
+.sidebar .hvr-grow:hover  {
+    transform: scale(1.2);
+    opacity: 1;
+}
+
+
+.sidebar #homeIcon:hover {
+    opacity: 1;
+}
+
+.sidebar #logo {
+    display: inline-block;
+    font-size: 30px;
+    color: #fff;
+    margin-top: 170px;
+}

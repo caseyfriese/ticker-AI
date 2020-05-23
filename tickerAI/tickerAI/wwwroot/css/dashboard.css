@@ -7,6 +7,7 @@
 /* Sets the font of the body element */
 body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
 }
 
 .sidebar {
@@ -37,11 +38,19 @@ body {
     -webkit-font-smoothing: antialiased;
 }
 
+.sidebar #dateNumber {
+    display: inline-block;
+    font-size: 20px;
+    padding-top: 3px;
+    color: #fff;
+    -webkit-font-smoothing: antialiased;
+}
+
 .sidebar #homeIcon {
     display: inline-block;
     font-size: 30px;
     color: #fff;
-    margin-top: 100px;
+    margin-top: 120px;
     opacity: 0.5
 }
 
@@ -76,4 +85,67 @@ body {
     font-size: 30px;
     color: #fff;
     margin-top: 170px;
+}
+
+.NewsBox {
+    position: fixed;
+    height: 80%;
+    width: 200px;
+    top: 73.5px;
+    left: 150px;
+    z-index: 1;
+    background-color: #2a2b33;
+    border-radius: 10px;
+    overflow-y: auto;
+}
+
+.NewsBox #newsText {
+    display: block;
+    font-size: 30px;
+    color: #fff;
+    padding: 5px;
+    border-bottom: 2px solid #3b3d47;
+    -webkit-font-smoothing: antialiased;
+}
+
+.graphs {
+    position: fixed;
+    height: 50%;
+    width: 800px;
+    background-color: #2a2b33;
+    left: 490px;
+    top: 73.5px;
+    border-radius: 10px;
+}
+
+.graphs #placeholderGraph {
+  color: #fff;
+  font-size: 30px;
+  -webkit-font-smoothing: antialiased;
+}
+
+.symbols {
+    position: fixed;
+    background-color: #2a2b33;
+    border-radius: 10px;
+    height: 40%;
+    width: 820px;
+    left: 482px;
+    top: 480px;
+
+}
+
+.symbols #placeholderSymbols {
+    font-size: 30px;
+    color: #fff;
+    -webkit-font-smoothing: antialiased;
+}
+
+input[type=text]{
+    position: fixed;
+    height: 35px;
+    width: 400px;
+    left: 689px;
+    top: 20px;
+    border-radius: 10px;
 }

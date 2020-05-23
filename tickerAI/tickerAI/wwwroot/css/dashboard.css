@@ -8,7 +8,7 @@
 body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
-    background-color: #f0f0f5;
+    background-color: #151715;
 }
 
 .sidebar {
@@ -166,4 +166,16 @@ input[type=text]{
     color: #fff;
     display: inline-block;
     padding: 5px;
+    -webkit-font-smoothing: antialiased;
+}
+
+#appname {
+    font-size: 30px;
+    position: fixed;
+    left: 270px;
+    bottom: 20px;
+    z-index: 2;
+    -webkit-font-smoothing: antialiased;
+    color: #fff;
+
 }

@@ -146,12 +146,10 @@
     text-align: center;
 }
 
-.search-bar {
+.search-bar-background {
     display: inline-block;
     height: 50px;
     background: #222;
-    text-align: center;
-    vertical-align: middle;
     border-radius: 10px;
     padding: 8px;
     width: 500px;
@@ -161,7 +159,6 @@
     font-size: 25px;
     float: right;
     margin-top: 3px;
-    vertical-align: middle;
 }
 
 .hvr-grow {
@@ -186,7 +183,7 @@
     background: transparent;
     color: #fff;
     outline: none;
-    font-size: 20px;
-    vertical-align: middle;
+    font-size: 25px;
+    line-height: 1;
 }
 

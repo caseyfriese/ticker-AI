@@ -141,3 +141,52 @@
         left: 70px;
     }
 }
+
+.search-bar-container {
+    text-align: center;
+}
+
+.search-bar {
+    display: inline-block;
+    height: 50px;
+    background: #222;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 10px;
+    padding: 8px;
+    width: 500px;
+}
+#search-icon {
+    color: #767676;
+    font-size: 25px;
+    float: right;
+    margin-top: 3px;
+    vertical-align: middle;
+}
+
+.hvr-grow {
+    display: inline-block;
+    vertical-align: middle;
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    transition-duration: 0.3s;
+    transition-property: transform;
+}
+
+#search-icon:hover {
+    color: #fff;
+    transform: scale(1.1);
+}
+
+.search-input {
+    width: 85%;
+    border: none;
+    background: transparent;
+    color: #fff;
+    outline: none;
+    font-size: 20px;
+    vertical-align: middle;
+}
+

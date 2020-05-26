@@ -15,7 +15,6 @@
     <PackageReference Include="ServiceStack.Text" Version="5.8.0" />
     <PackageReference Include="font-awesome" Version="4.7.0" />
     <PackageReference Include="YahooFinanceApi" Version="2.1.2" />
-    <PackageReference Include="IEXCloudDotNet" Version="1.0.1.1" />
   </ItemGroup>
   <ItemGroup>
     <Content Remove="wwwroot\css\style.css" />
